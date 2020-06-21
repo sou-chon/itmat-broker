@@ -8,7 +8,6 @@
     "files": [
         "build"
     ],
-    "proxy": "http://localhost:3003",
     "scripts": {
         "start": "cross-env BROWSER=none SKIP_PREFLIGHT_CHECK=true react-scripts start",
         "build": "cross-env SKIP_PREFLIGHT_CHECK=true react-scripts build",
@@ -19,6 +18,7 @@
         "clean": "rimraf -rf ./dist ./build",
         "prepublishOnly": "yarn run build"
     },
+    "proxy": "http://localhost:3003",
     "dependencies": {
         "antd": "4.3.4",
         "apollo-cache-inmemory": "1.6.6",

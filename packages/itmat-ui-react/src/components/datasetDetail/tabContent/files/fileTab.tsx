@@ -6,7 +6,7 @@ import { LoadingBalls } from '../../../reusable/icons/loadingBalls';
 import { Subsection } from '../../../reusable/subsection/subsection';
 import css from './tabContent.module.css';
 import { UploadFileSection } from './uploadFile';
-import { FileBrowser } from '../../../reusable/fileBrowser/fileBrowser';
+import { FileBrowser } from '../../../reusable/fileBrowser/fileTree/fileTree';
 
 export const FileRepositoryTabContent: React.FunctionComponent<{ studyId: string }> = ({ studyId }) => {
     return <div className={css.scaffold_wrapper + ' fade_in'}>
